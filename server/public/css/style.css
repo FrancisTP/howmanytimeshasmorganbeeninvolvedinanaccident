@@ -1,6 +1,11 @@
 body, html {
-    height: 100%;
+    /*height: 100%;*/
     overflow: hidden;
+
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
 }
 
 h1 { 
@@ -20,19 +25,7 @@ p {
 	text-align: center; 
 }
 
-.bg {
-	/* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+td {
+	width: 33.33%;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
